@@ -16,8 +16,9 @@ Ce portfolio a pour but de :
 
 ## 📂 Contenu du site
 - Page d’accueil avec présentation  
-- Section “Projets” avec mes réalisations  
-- Section “Contact” pour me joindre facilement  
+- Section “AP” avec mes réalisations  
+- Section “CV” pour me joindre facilement
+- Je ne vais pas vous spoil la suite :) 
 
 ## 🌍 Site en ligne
 Mon portfolio est disponible ici 👉 [https://maravello.github.io/Mon-Portfolio/](https://maravello.github.io/Mon-Portfolio/)
@@ -26,4 +27,5 @@ Mon portfolio est disponible ici 👉 [https://maravello.github.io/Mon-Portfolio
 Tu peux me contacter via :  
 - **Email :** [ton.email@example.com](mailto:yahayac753@gmail.com)  
 - **GitHub :** [@Maravello](https://github.com/Maravello)
+
 
