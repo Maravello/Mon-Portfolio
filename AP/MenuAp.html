@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mes AP - Yahaya Coulibaly</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    /* Menu en haut */
+    header {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      margin: 0;
+      color: #222;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+      background-color: #f0f0f0;
+    }
+
+    nav a:hover {
+      color: white;
+      background-color: #0077ff;
+    }
+
+    /* Menu mobile */
+    .menu-toggle {
+      display: none;
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: #222;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: absolute;
+        top: 60px;
+        right: 30px;
+        width: 180px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+
+      nav.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    /* Section principale */
+    main {
+      max-width: 900px;
+      margin: 100px auto 50px;
+      padding: 0 20px;
+    }
+
+    main h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .project {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #0077ff;
+    }
+
+    .project p {
+      margin: 10px 0;
+    }
+
+    .project a.btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #0077ff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .project a.btn:hover {
+      background-color: #005bbb;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yahaya Coulibaly</h1>
+    <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    <nav id="menu">
+      <a href="../index.html">Accueil</a>
+      <a href="MenuAp.html">Mes AP</a>
+      <a href="../Stage/MenuStage.html">Stages</a>
+      <a href="../CV/cv.html">CV</a>
+      <a href="veille.html">Veille</a>
+    </nav>
+  </header>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("active");
+    }
+  </script>
+
+  <main>
+    <h2>Mes AP</h2>
+
+    <section class="project">
+      <h3>Projet SCISS</h3>
+      <p><strong>Durée :</strong> 08/09/2023 - 19/10/2023</p>
+      <a href="./Ap1.html" class="btn">Voir le projet</a>
+    </section>
+
+    <section class="project">
+      <h3>Pokémon</h3>
+      <p><strong>Durée :</strong> 16/12/2024 - 10/01/2024</p>
+      <a href="./ap3.html" class="btn">Voir le projet</a>
+    </section>
+
+    <section class="project">
+      <h3>Quinconces-Espal</h3>
+      <p><strong>Durée :</strong> 18/01/2024 - 06/02/2024</p>
+      <a href="./Ap2.html" class="btn">Voir le projet</a>
+    </section>
+
+    <section class="project">
+      <h3>École de musique (Client lourd)</h3>
+      <p><strong>Durée :</strong> 25/02/2025 - 07/04/2025</p>
+      <a href="./Ap5.html" class="btn">Voir le projet</a>
+    </section>
+
+    <section class="project">
+      <h3>École de musique</h3>
+      <p><strong>Durée :</strong> 20/09/2024 - 18/12/2024</p>
+      <a href="./ap4.html" class="btn">Voir le projet</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yahaya Coulibaly</p>
+  </footer>
+
+</body>
+</html>

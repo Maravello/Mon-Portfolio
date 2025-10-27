@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille - Yahaya Coulibaly</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #0d1117;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    header nav a:hover {
+      color: #58a6ff;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #0d1117;
+    }
+
+    .rss-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .rss-buttons a {
+      display: inline-block;
+      background-color: #0d1117;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .rss-buttons a:hover {
+      background-color: #58a6ff;
+    }
+
+    footer {
+      background-color: #0d1117;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 50px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Yahaya Coulibaly</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="ap.html">Mes AP</a>
+      <a href="stages.html">Stages</a>
+      <a href="cv.html">CV</a>
+      <a href="veille.html">Veille</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Ma Veille Technologique</h2>
+    <p>Découvrez les dernières actualités et articles grâce aux flux RSS.</p>
+    
+    <div class="rss-buttons">
+      <a href="https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fmysql.developpez.com%2Findex%2Frss" target="_blank">Sur les base de données</a>
+      <a href="http://atlasflux.suptribune.org/Outil_RSS_lecture.php?code_id=20658&charge=&urllist=fra_informatique_intelligence_artificielle" target="_blank">Sur l'intelligence artificielle</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yahaya Coulibaly</p>
+  </footer>
+
+</body>
+</html>
