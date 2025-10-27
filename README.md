@@ -13,7 +13,6 @@ Ce portfolio a pour but de :
 - **HTML5**  
 - **CSS3**  
 - **JavaScript**  
-- *(+ ajoute d’autres technos si besoin, ex : Bootstrap, PHP, etc.)*
 
 ## 📂 Contenu du site
 - Page d’accueil avec présentation  
@@ -27,3 +26,4 @@ Mon portfolio est disponible ici 👉 [https://maravello.github.io/Mon-Portfolio
 Tu peux me contacter via :  
 - **Email :** [ton.email@example.com](mailto:yahayac753@gmail.com)  
 - **GitHub :** [@Maravello](https://github.com/Maravello)
+
