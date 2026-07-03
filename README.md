@@ -25,7 +25,7 @@ Mon portfolio est disponible ici 👉 [https://maravello.github.io/Mon-Portfolio
 
 ## 📧 Contact
 Tu peux me contacter via :  
-- **Email :** [ton.email@example.com](mailto:yahayac753@gmail.com)  
+- **Email :** [yahayac753@gmail.com](mailto:yahayac753@gmail.com)  
 - **GitHub :** [@Maravello](https://github.com/Maravello)
 
 
